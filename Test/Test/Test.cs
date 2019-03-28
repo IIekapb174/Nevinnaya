@@ -20,6 +20,25 @@ namespace Test
         private void result_Click(object sender, EventArgs e)
         {
             int points = 0;
+
+
+            if (points >= 9)
+            {
+                labelResult.Text = "Итоговая оценка: 5";
+            }
+            if(points >= 7)
+            {
+                labelResult.Text = "Итоговая оценка: 4";
+            }
+            if(points >= 5)
+            {
+                labelResult.Text = "Итоговая оценка: 3";
+            }
+            if(points < 5)
+            {
+                labelResult.Text = "Итоговая оценка: 2";
+            }
+
         }
     }
 }
