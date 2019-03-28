@@ -16,5 +16,10 @@ namespace Test
         {
             InitializeComponent();
         }
+
+        private void result_Click(object sender, EventArgs e)
+        {
+            int points = 0;
+        }
     }
 }
